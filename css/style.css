@@ -1,0 +1,51 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.search div {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 300px;
+    padding: 0px 36px;
+    border-radius: 6px;
+  
+  }
+  input {
+    position: relative;
+    line-height: 40px;
+    width: 100%;
+    border: none;
+    z-index: 10;
+    outline: none;
+    font-size: 16px
+  }
+  icon {
+    position: absolute;
+    display: block;
+    top: 4px;
+    right: 4px;
+    padding: 8px;
+  }
+  
+   
+  
+  icon.lupa {
+    right: none;
+    left: 6px;
+  }
+  
+   
+  
+  icon.close:hover {
+    background-color: #eee;
+  }
+  
+   
+  
+  div.circle {
+    width: 26px;
+    height: 26px;
+    background-color: #4070ff;
+    border-radius: 50%;
+  }
