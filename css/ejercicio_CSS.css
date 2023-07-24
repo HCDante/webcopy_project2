@@ -1,0 +1,96 @@
+/* --- Display --- */
+.container {
+    display: flex; /* Utilizamos flex para establecer el contenedor como flexbox */
+    flex-direction: column; /* Los elementos hijos se alinearán verticalmente */
+  }
+  
+  /* --- Position --- */
+  .container {
+    position: relative; /* Establecemos posición relativa para poder posicionar elementos internos */
+  }
+  
+  /* --- Border --- */
+  h1 {
+    border: 2px solid black; /* Agregamos un borde de 2px de grosor de color negro alrededor del h1 */
+  }
+  
+  /* --- Padding --- */
+  .container {
+    padding: 20px; /* Agregamos un relleno de 20px alrededor del contenedor */
+  }
+  
+  /* --- Margin --- */
+  .container {
+    margin: 30px; /* Agregamos un margen de 30px alrededor del contenedor */
+  }
+  
+  /* --- Color --- */
+  body {
+    color: #333; /* Cambiamos el color del texto del cuerpo a gris oscuro */
+  }
+  
+  /* --- Box-shadow --- */
+  h1 {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Agregamos una sombra alrededor del h1 */
+  }
+  
+  /* --- Flex/Grid --- */
+  /* Estas propiedades se explicarán en conjunto para el contenedor y los elementos hijos en styles.css */
+  
+  /* --- Empty-cells --- */
+  table {
+    empty-cells: hide; /* Ocultamos las celdas vacías en una tabla */
+  }
+  
+  /* --- Fonts --- */
+  /* Definimos las fuentes a utilizar en styles.css */
+  
+  /* --- Font --- */
+  h1 {
+    font-family: Arial, sans-serif; /* Establecemos la fuente del h1 */
+  }
+  
+  /* --- Height --- */
+  .container {
+    height: 300px; /* Establecemos la altura del contenedor a 300px */
+  }
+  
+  /* --- Estilos de texto --- */
+  p {
+    text-decoration: underline; /* Subrayamos el texto de los párrafos */
+    text-transform: uppercase; /* Convertimos el texto a mayúsculas */
+  }
+  
+  /* --- Opacity --- */
+  .container {
+    opacity: 0.8; /* Establecemos la opacidad del contenedor al 80% */
+  }
+  
+  /* --- Text... --- */
+  /* Propiedades de texto adicionales*/
+  
+  /* --- Width --- */
+  .container {
+    width: 400px; /* Establecemos el ancho del contenedor a 400px */
+  }
+  
+  /* --- Top --- */
+  .container {
+    top: 50px; /* Desplazamos el contenedor 50px hacia abajo desde su posición original */
+  }
+  
+  /* --- z-index --- */
+  .container {
+    z-index: 1; /* Establecemos el valor de z-index del contenedor a 1 */
+  }
+  
+  /* --- nth-child --- */
+  .container p:nth-child(odd) {
+    color: red; /* Cambiamos el color de los párrafos impares a rojo */
+  }
+  
+  /* --- Pseudo-clase --- */
+  a:hover {
+    text-decoration: none; /* Quitamos la decoración de texto cuando el enlace es hover */
+  }
+  

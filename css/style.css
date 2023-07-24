@@ -1,7 +1,58 @@
-.grid-container {
-    display: flex;
-    flex-direction: row;
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+/* Navbar */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo svg {
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+/* Estilos para los íconos */
+.fa-regular,
+.fa-solid {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+
+/* Searchbar */
 
 .search div {
     position: relative;
